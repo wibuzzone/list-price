@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilihan Paket Harga - Wibuzone</title>
+    <meta name="description" content="Pilih paket pembuatan situs web Wibuzone yang sesuai kebutuhan dan anggaran — mulai dari sederhana hingga lengkap dengan dukungan penuh.">
+    <meta name="keywords" content="Wibuzone, paket harga, biaya buat website, jasa pembuatan situs murah, paket landing page">
+    <meta name="author" content="Wibuzone">
+    <meta property="og:title" content="Pilihan Paket Harga - Wibuzone">
+    <meta property="og:description" content="Harga jelas, fitur terurai lengkap, tanpa biaya tersembunyi.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id_ID">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        dark: '#1D2129',
+                        light: '#F2F3F5'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+            .transition-custom { transition: all 0.3s ease; }
+            .scroll-smooth { scroll-behavior: smooth; }
+            .card-hover { @apply hover:-translate-y-2 hover:shadow-xl; }
+        }
+    </style>
+</head>
+<body class="font-sans scroll-smooth bg-gray-50 text-dark overflow-x-hidden">
+
+    <!-- Navigasi Sama Gaya -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-md shadow-sm z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-[clamp(1.2rem,3vw,1.5rem)] font-bold text-primary">Wibuzone</a>
+            <div class="hidden md:flex gap-8">
+                <a href="index.html" class="hover:text-primary transition-custom">Beranda</a>
+                <a href="profil.html" class="hover:text-primary transition-custom">Profil</a>
+                <a href="produk.html" class="hover:text-primary transition-custom">Produk</a>
+                <a href="paket.html" class="text-primary font-medium">Paket</a>
+                <a href="kontak.html" class="hover:text-primary transition-custom">Kontak</a>
+            </div>
+            <button class="md:hidden text-dark text-xl">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Bagian Utama Paket Harga -->
+    <section class="pt-28 pb-20 bg-gradient-to-b from-blue-50 to-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h1 class="text-[clamp(2rem,4vw,3rem)] font-extrabold text-dark text-shadow">Pilih Paket yang Sesuai</h1>
+                <p class="mt-4 text-gray-700 text-lg">Semua paket sudah lengkap dengan tampilan responsif dan struktur siap pencarian — bedanya hanya pada kelengkapan fitur dan dukungan tambahan.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto items-center">
+
+                <!-- Paket Dasar -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 transition-custom card-hover">
+                    <h3 class="text-2xl font-bold text-center mb-2">Paket Dasar</h3>
+                    <p class="text-gray-600 text-center mb-6">Cocok untuk kebutuhan sederhana</p>
+                    <div class="text-center mb-6">
+                        <span class="text-4xl font-bold">Terjangkau</span>
+                        <span class="text-gray-500"> / sekali jadi</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 text-gray-700">
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Halaman satu tampilan utama
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Tampilan nyaman di HP & Komputer
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Pengaturan dasar penelusuran
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Kode bersih & mudah diubah
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-400">
+                            <i class="fa fa-times-circle"></i> Tanpa formulir pesan
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-400">
+                            <i class="fa fa-times-circle"></i> Tanpa bantuan pemasangan
+                        </li>
+                    </ul>
+                    <a href="kontak.html" class="block w-full text-center border-2 border-primary text-primary hover:bg-primary/5 py-3 rounded-lg font-semibold transition-custom">
+                        Pesan Paket Ini
+                    </a>
+                </div>
+
+                <!-- Paket Standar - Paling Disarankan -->
+                <div class="bg-white rounded-2xl shadow-2xl p-8 transform scale-105 border-2 border-primary relative z-10">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-white px-4 py-1 rounded-full text-sm font-medium">
+                        ✅ Paling Banyak Dipilih
+                    </div>
+                    <h3 class="text-2xl font-bold text-center mb-2">Paket Standar</h3>
+                    <p class="text-gray-600 text-center mb-6">Lengkap untuk usaha kecil</p>
+                    <div class="text-center mb-6">
+                        <span class="text-4xl font-bold">Menengah</span>
+                        <span class="text-gray-500"> / sekali jadi</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 text-gray-700">
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Semua isi Paket Dasar
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Sampai 4–5 bagian halaman
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Formulir pesan sederhana
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Penjelasan lengkap untuk pencarian
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Panduan cara mengubah isi
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Bantu pasang ke hosting murah/gratis
+                        </li>
+                    </ul>
+                    <a href="kontak.html" class="block w-full text-center bg-primary hover:bg-primary/90 text-white py-3 rounded-lg font-semibold shadow-lg transition-custom">
+                        Pesan Paket Ini
+                    </a>
+                </div>
+
+                <!-- Paket Premium -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 transition-custom card-hover">
+                    <h3 class="text-2xl font-bold text-center mb-2">Paket Premium</h3>
+                    <p class="text-gray-600 text-center mb-6">Fitur lengkap & dukungan penuh</p>
+                    <div class="text-center mb-6">
+                        <span class="text-4xl font-bold">Sesuai Permintaan</span>
+                        <span class="text-gray-500"> / disesuaikan</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 text-gray-700">
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Semua isi Paket Standar
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Bagian tambahan tak terbatas
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Sambungan pesan otomatis/WA
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Penyesuaian warna &amp; gaya penuh
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Bantu atur Domain &amp; DNS
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa fa-check-circle text-primary"></i> Perubahan ringan gratis 1 kali
+                        </li>
+                    </ul>
+                    <a href="kontak.html" class="block w-full text-center border-2 border-primary text-primary hover:bg-primary/5 py-3 rounded-lg font-semibold transition-custom">
+                        Hubungi Penawaran
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="mt-16 max-w-2xl mx-auto text-center text-gray-600">
+                <p class="mb-2">❓ Tidak menemukan yang cocok? Kami bisa buatkan <strong>susunan khusus</strong> sesuai kebutuhan proyekmu.</p>
+                <p class="text-sm">Semua hasil tetap kode murni, ringan, dan siap dijalankan di layanan hosting terjangkau yang biasa dipakai di Indonesia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kaki Halaman -->
+    <footer class="bg-dark text-gray-300 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2026 Wibuzone — Pengembangan Halaman Satu Tampilan Eksklusif &amp; Siap Pencarian</p>
+        </div>
+    </footer>
+
+</body>
+</html>
